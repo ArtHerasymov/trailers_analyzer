@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f52158e-60d1-49f8-9863-2374b70f6599" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/analytics/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analytics/semantics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo_driver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_posrgre.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analytics/cloud_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analytics/reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/dump.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/analytics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/analytics/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics/semantics.py" beforeDir="false" afterPath="$PROJECT_DIR$/analytics/semantics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_dataset.json" beforeDir="false" afterPath="$PROJECT_DIR$/final_dataset.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,20 +24,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+            <state relative-caret-position="28">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <marker date="1560488637607" expanded="false" signature="1383:4713" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/final_dataset.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+            <state relative-caret-position="215">
+              <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -58,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/config/database.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
-              <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -105,17 +105,19 @@
         <option value="$PROJECT_DIR$/node_posrgre.js" />
         <option value="$PROJECT_DIR$/semantics.py" />
         <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/mongo_driver.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
+        <option value="$PROJECT_DIR$/db/dump.sh" />
         <option value="$PROJECT_DIR$/final_dataset.json" />
         <option value="$PROJECT_DIR$/config/database.js" />
-        <option value="$PROJECT_DIR$/mongo_driver.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="809" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -134,6 +136,11 @@
               <item name="youtube_scraper" type="b2602c69:ProjectViewProjectNode" />
               <item name="youtube_scraper" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube_scraper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube_scraper" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,16 +183,15 @@
       <workItem from="1560105275802" duration="1284000" />
       <workItem from="1560419665099" duration="8406000" />
       <workItem from="1560458812254" duration="170000" />
-      <workItem from="1560459048624" duration="8884000" />
+      <workItem from="1560459048624" duration="10504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18744000" />
+    <option name="totallyTimeSpent" value="20364000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="809" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.21244635" />
       <window_info id="Structure" order="1" sideWeight="0.5012285" side_tool="true" weight="0.21244635" />
@@ -205,11 +211,14 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Terminal" order="3" sideWeight="0.4982382" visible="true" weight="0.2746781" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" sideWeight="0.4982382" visible="true" weight="0.20886981" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sh" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test_split.js">
@@ -245,17 +254,31 @@
     <entry file="file://$PROJECT_DIR$/test.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/dump.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/final_dataset.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20446">
-          <caret line="4" column="10" selection-end-line="1191" selection-end-column="1" />
+        <state relative-caret-position="215">
+          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -268,15 +291,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        <state relative-caret-position="28">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1560488637607" expanded="false" signature="1383:4713" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
